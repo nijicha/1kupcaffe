@@ -9,7 +9,11 @@
 	let { children } = $props();
 </script>
 
-<svelte:head><link rel="icon" href={favicon} /></svelte:head>
+<svelte:head>
+	<title>1KUP CAFFE — From Farm to Cup</title>
+	<meta name="description" content="1KUP CAFFE is a coffee-and-technology company connecting Southeast Asian farmers to global markets through AI, traceable sourcing, and sustainable supply chains." />
+	<link rel="icon" href={favicon} />
+</svelte:head>
 {@render children()}
 
 <div style="display:none">
