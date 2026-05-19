@@ -7,7 +7,7 @@
 
 	let { size = 120, color = 'currentColor', opacity = 0.5 } = $props();
 
-	const radius = size / 2;
+	let radius = $derived(size / 2);
 </script>
 
 <svg viewBox="0 0 {size} {size}" class="w-full h-full" {color}>

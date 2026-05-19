@@ -53,7 +53,7 @@
 		<div class="hidden md:block">
 			<div class="relative">
 				<!-- Connecting line -->
-				<div class="absolute top-12 left-0 right-0 h-1 bg-gradient-to-r from-brand-olive via-brand-sage to-brand-olive" />
+				<div class="absolute top-12 left-0 right-0 h-1 bg-gradient-to-r from-brand-olive via-brand-sage to-brand-olive"></div>
 
 				<!-- Milestones -->
 				<div class="grid grid-cols-1 md:grid-cols-3 gap-8 relative z-10">
