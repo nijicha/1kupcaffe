@@ -26,30 +26,38 @@
 			<div class="hidden lg:grid grid-cols-2 gap-2 h-[420px]">
 				<!-- Left column: 2 equal images -->
 				<div class="flex flex-col gap-2">
-					<img
-						src="https://images.unsplash.com/photo-1758518732175-5d608ba3abdf?w=600&h=500&fit=crop"
-						alt="Professional team meeting"
-						class="flex-1 object-cover rounded-lg"
-					/>
-					<img
-						src="https://images.unsplash.com/photo-1758518729463-0bb73ed899ac?w=600&h=500&fit=crop"
-						alt="Business professionals discussing"
-						class="flex-1 object-cover rounded-lg"
-					/>
+					<div class="flex-1 relative overflow-hidden rounded-lg shadow-lg">
+						<img
+							src="https://images.unsplash.com/photo-1758518732175-5d608ba3abdf?w=600&h=500&fit=crop"
+							alt="Professional team meeting"
+							class="w-full h-full object-cover hover:scale-105 transition duration-300"
+						/>
+					</div>
+					<div class="flex-1 relative overflow-hidden rounded-lg shadow-lg">
+						<img
+							src="https://images.unsplash.com/photo-1758518729463-0bb73ed899ac?w=600&h=500&fit=crop"
+							alt="Business professionals discussing"
+							class="w-full h-full object-cover hover:scale-105 transition duration-300"
+						/>
+					</div>
 				</div>
 
 				<!-- Right column: 2 images with top one taller -->
 				<div class="flex flex-col gap-2 pt-4">
-					<img
-						src="https://images.unsplash.com/photo-1758691737543-09a1b2b715fa?w=600&h=800&fit=crop"
-						alt="Diverse team collaboration"
-						class="flex-[1.5] object-cover rounded-lg"
-					/>
-					<img
-						src="https://images.unsplash.com/photo-1758518731468-98e90ffd7430?w=600&h=500&fit=crop"
-						alt="Professional business team"
-						class="flex-1 object-cover rounded-lg"
-					/>
+					<div class="flex-[1.5] relative overflow-hidden rounded-lg shadow-lg">
+						<img
+							src="https://images.unsplash.com/photo-1758691737543-09a1b2b715fa?w=600&h=800&fit=crop"
+							alt="Diverse team collaboration"
+							class="w-full h-full object-cover hover:scale-105 transition duration-300"
+						/>
+					</div>
+					<div class="flex-1 relative overflow-hidden rounded-lg shadow-lg">
+						<img
+							src="https://images.unsplash.com/photo-1758518731468-98e90ffd7430?w=600&h=500&fit=crop"
+							alt="Professional business team"
+							class="w-full h-full object-cover hover:scale-105 transition duration-300"
+						/>
+					</div>
 				</div>
 			</div>
 		</div>
