@@ -24,16 +24,32 @@
 
 			<!-- Right: Image Grid (visible lg and up) -->
 			<div class="hidden lg:grid grid-cols-2 gap-3 h-[520px]">
-				<!-- Left column: 2 equal rectangles -->
+				<!-- Left column: 2 equal images -->
 				<div class="flex flex-col gap-3">
-					<div class="flex-1 bg-gradient-to-br from-brand-olive/60 to-brand-olive/40 rounded-lg"></div>
-					<div class="flex-1 bg-gradient-to-br from-brand-olive/40 to-brand-olive/20 rounded-lg"></div>
+					<img
+						src="https://images.unsplash.com/photo-1605000797499-95a51c5269ae?w=600&h=500&fit=crop"
+						alt="Coffee farming"
+						class="flex-1 object-cover rounded-lg"
+					/>
+					<img
+						src="https://images.unsplash.com/photo-1515694590185-73647ba02c10?w=600&h=500&fit=crop"
+						alt="Coffee harvest"
+						class="flex-1 object-cover rounded-lg"
+					/>
 				</div>
 
-				<!-- Right column: 2 rectangles with top one taller -->
+				<!-- Right column: 2 images with top one taller -->
 				<div class="flex flex-col gap-3 pt-8">
-					<div class="flex-[1.5] bg-gradient-to-br from-brand-olive/50 to-brand-olive/30 rounded-lg"></div>
-					<div class="flex-1 bg-gradient-to-br from-brand-olive/35 to-brand-olive/15 rounded-lg"></div>
+					<img
+						src="https://plus.unsplash.com/premium_photo-1675237625862-d982e7f44696?w=600&h=800&fit=crop"
+						alt="Coffee plants"
+						class="flex-[1.5] object-cover rounded-lg"
+					/>
+					<img
+						src="https://images.unsplash.com/photo-1559556064-4161b6be179b?w=600&h=500&fit=crop"
+						alt="Coffee farm workers"
+						class="flex-1 object-cover rounded-lg"
+					/>
 				</div>
 			</div>
 		</div>
