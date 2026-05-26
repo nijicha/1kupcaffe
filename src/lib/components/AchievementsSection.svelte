@@ -21,16 +21,16 @@
 	];
 </script>
 
-<section id="achievements" class="py-24 px-4 bg-brand-sage-light">
+<section id="achievements" class="py-16 px-4 bg-brand-sage-light">
 	<div class="max-w-7xl mx-auto">
 		<div class="absolute top-0 right-0 w-96 h-96 opacity-10">
 			<DotGrid cols={10} rows={10} gap={12} />
 		</div>
 
-		<h2 class="text-5xl md:text-6xl font-bold text-brand-olive mb-12">Business Achievements</h2>
+		<h2 class="text-5xl md:text-6xl font-bold text-brand-olive mb-8">Business Achievements</h2>
 
 		<!-- Contact Links -->
-		<div class="flex flex-wrap gap-4 mb-16">
+		<div class="flex flex-wrap gap-3 mb-12">
 			<a
 				href="https://www.1kupcaffe.com"
 				target="_blank"
@@ -55,7 +55,7 @@
 		</div>
 
 		<!-- Achievement Cards -->
-		<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+		<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 			{#each achievements as achievement}
 				<div class="bg-white rounded-lg p-8 border-2 border-brand-olive/20 hover:shadow-lg transition">
 					<h3 class="text-xl font-bold text-brand-olive mb-3">{achievement.title}</h3>

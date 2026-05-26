@@ -6,13 +6,13 @@
 	// }
 </script>
 
-<footer id="contact" class="py-20 px-4 bg-brand-dark text-brand-cream">
+<footer id="contact" class="py-16 px-4 bg-brand-dark text-brand-cream">
 	<div class="max-w-7xl mx-auto">
 		<!-- Contact Section -->
-		<div class="mb-16">
-			<h2 class="text-5xl font-bold mb-12">Get In Touch</h2>
+		<div class="mb-12">
+			<h2 class="text-5xl font-bold mb-8">Get In Touch</h2>
 
-			<div class="flex flex-wrap gap-6 mb-12">
+			<div class="flex flex-wrap gap-4 mb-8">
 				<a
 					href="https://www.1kupcaffe.com"
 					target="_blank"

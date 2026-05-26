@@ -31,7 +31,7 @@
 	];
 </script>
 
-<section id="future-plans" class="py-24 px-4 bg-white">
+<section id="future-plans" class="py-16 px-4 bg-white">
 	<div class="max-w-7xl mx-auto">
 		<h2 class="text-5xl md:text-6xl font-bold text-brand-olive mb-16">Future Plans</h2>
 

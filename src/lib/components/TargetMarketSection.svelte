@@ -3,7 +3,7 @@
 	import Sparkle from './decorations/Sparkle.svelte';
 </script>
 
-<section id="target-market" class="py-24 px-4 bg-brand-dark text-brand-cream">
+<section id="target-market" class="py-16 px-4 bg-brand-dark text-brand-cream">
 	<div class="max-w-7xl mx-auto">
 		<div class="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
 			<!-- Left: Problem & Solution -->

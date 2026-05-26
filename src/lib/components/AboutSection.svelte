@@ -16,9 +16,9 @@
 	];
 </script>
 
-<section id="about" class="py-32 px-4 bg-white">
+<section id="about" class="py-20 px-4 bg-white">
 	<div class="max-w-7xl mx-auto">
-		<h2 class="text-5xl md:text-6xl font-bold text-brand-olive mb-16">About Our Business</h2>
+		<h2 class="text-5xl md:text-6xl font-bold text-brand-olive mb-10">About Our Business</h2>
 
 		<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 			<!-- Left: Text -->

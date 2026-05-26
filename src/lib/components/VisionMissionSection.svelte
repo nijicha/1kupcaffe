@@ -21,7 +21,7 @@
 	];
 </script>
 
-<section id="vision" class="py-24 px-4 bg-brand-dark text-brand-cream">
+<section id="vision" class="py-16 px-4 bg-brand-dark text-brand-cream">
 	<div class="max-w-7xl mx-auto">
 		<!-- Decorations -->
 		<div class="absolute top-20 left-10 w-64 h-64 opacity-5">

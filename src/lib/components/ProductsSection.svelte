@@ -46,15 +46,15 @@
 	];
 </script>
 
-<section id="products" class="py-24 px-4 bg-white">
+<section id="products" class="py-16 px-4 bg-white">
 	<div class="max-w-7xl mx-auto">
-		<h2 class="text-5xl md:text-6xl font-bold text-brand-olive mb-16">Our Products</h2>
+		<h2 class="text-5xl md:text-6xl font-bold text-brand-olive mb-10">Our Products</h2>
 
 		<div class="space-y-20">
 			{#each products as productGroup}
 				<div>
 					<h3 class="text-3xl font-bold text-brand-olive mb-8">{productGroup.category}</h3>
-					<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+					<div class="grid grid-cols-1 md:grid-cols-2 gap-6">
 						{#each productGroup.items as product}
 							<div class="bg-white border-2 border-brand-sage-light rounded-lg p-8 hover:shadow-lg transition">
 								<div class="h-32 bg-gradient-to-br from-brand-olive to-brand-sage rounded-lg mb-6"></div>
