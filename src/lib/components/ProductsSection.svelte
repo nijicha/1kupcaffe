@@ -48,7 +48,7 @@
 
 <section id="products" class="py-24 px-4 bg-white">
 	<div class="max-w-7xl mx-auto">
-		<h2 class="text-5xl md:text-6xl font-black text-brand-olive mb-16">Our Products</h2>
+		<h2 class="text-5xl md:text-6xl font-bold text-brand-olive mb-16">Our Products</h2>
 
 		<div class="space-y-20">
 			{#each products as productGroup}
@@ -56,7 +56,7 @@
 					<h3 class="text-3xl font-bold text-brand-olive mb-8">{productGroup.category}</h3>
 					<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 						{#each productGroup.items as product}
-							<div class="bg-white border-2 border-brand-sage-light rounded-2xl p-8 hover:shadow-lg transition">
+							<div class="bg-white border-2 border-brand-sage-light rounded-lg p-8 hover:shadow-lg transition">
 								<div class="h-32 bg-gradient-to-br from-brand-olive to-brand-sage rounded-lg mb-6"></div>
 								<h4 class="text-xl font-bold text-brand-dark mb-3">{product.title}</h4>
 								<p class="text-brand-dark/80 leading-relaxed">{product.desc}</p>

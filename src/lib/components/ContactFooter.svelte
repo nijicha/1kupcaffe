@@ -10,14 +10,14 @@
 	<div class="max-w-7xl mx-auto">
 		<!-- Contact Section -->
 		<div class="mb-16">
-			<h2 class="text-5xl font-black mb-12">Get In Touch</h2>
+			<h2 class="text-5xl font-bold mb-12">Get In Touch</h2>
 
 			<div class="flex flex-wrap gap-6 mb-12">
 				<a
 					href="https://www.1kupcaffe.com"
 					target="_blank"
 					rel="noopener noreferrer"
-					class="px-8 py-4 bg-brand-olive text-brand-cream font-bold rounded-full hover:bg-brand-sage transition flex items-center gap-2"
+					class="px-8 py-4 bg-brand-olive text-brand-cream font-bold rounded hover:bg-brand-sage transition flex items-center gap-2"
 				>
 					<svg class="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
 						<path
@@ -33,7 +33,7 @@
 					href="https://instagram.com/coldbrewbyarome"
 					target="_blank"
 					rel="noopener noreferrer"
-					class="px-8 py-4 bg-brand-sage text-brand-cream font-bold rounded-full hover:bg-brand-sage-light hover:text-brand-dark transition flex items-center gap-2"
+					class="px-8 py-4 bg-brand-sage text-brand-cream font-bold rounded hover:bg-brand-sage-light hover:text-brand-dark transition flex items-center gap-2"
 				>
 					<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
 						<path

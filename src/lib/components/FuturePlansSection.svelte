@@ -33,7 +33,7 @@
 
 <section id="future-plans" class="py-24 px-4 bg-white">
 	<div class="max-w-7xl mx-auto">
-		<h2 class="text-5xl md:text-6xl font-black text-brand-olive mb-16">Future Plans</h2>
+		<h2 class="text-5xl md:text-6xl font-bold text-brand-olive mb-16">Future Plans</h2>
 
 		<p class="text-lg text-brand-dark max-w-3xl mb-16 leading-relaxed">
 			Over the next 12–36 months, we will evolve into a global connector for sustainable trade while expanding our

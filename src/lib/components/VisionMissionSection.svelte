@@ -31,7 +31,7 @@
 		<div class="grid grid-cols-1 lg:grid-cols-2 gap-16">
 			<!-- Vision -->
 			<div>
-				<h2 class="text-5xl font-black mb-12">Vision</h2>
+				<h2 class="text-5xl font-bold mb-12">Vision</h2>
 				<ul class="space-y-6">
 					{#each visions as vision}
 						<li class="flex gap-4">

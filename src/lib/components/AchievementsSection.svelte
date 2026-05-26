@@ -27,7 +27,7 @@
 			<DotGrid cols={10} rows={10} gap={12} />
 		</div>
 
-		<h2 class="text-5xl md:text-6xl font-black text-brand-olive mb-12">Business Achievements</h2>
+		<h2 class="text-5xl md:text-6xl font-bold text-brand-olive mb-12">Business Achievements</h2>
 
 		<!-- Contact Links -->
 		<div class="flex flex-wrap gap-4 mb-16">
@@ -35,7 +35,7 @@
 				href="https://www.1kupcaffe.com"
 				target="_blank"
 				rel="noopener noreferrer"
-				class="inline-block px-6 py-3 bg-brand-olive text-brand-cream font-bold rounded-full hover:bg-brand-dark transition"
+				class="inline-block px-6 py-3 bg-brand-olive text-brand-cream font-bold rounded hover:bg-brand-dark transition"
 			>
 				www.1kupcaffe.com
 			</a>
@@ -43,7 +43,7 @@
 				href="https://instagram.com/coldbrewbyarome"
 				target="_blank"
 				rel="noopener noreferrer"
-				class="inline-block px-6 py-3 bg-brand-sage text-brand-cream font-bold rounded-full hover:bg-brand-olive transition flex items-center gap-2"
+				class="inline-block px-6 py-3 bg-brand-sage text-brand-cream font-bold rounded hover:bg-brand-olive transition flex items-center gap-2"
 			>
 				<svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24">
 					<path
@@ -57,7 +57,7 @@
 		<!-- Achievement Cards -->
 		<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
 			{#each achievements as achievement}
-				<div class="bg-white rounded-2xl p-8 border-2 border-brand-olive/20 hover:shadow-lg transition">
+				<div class="bg-white rounded-lg p-8 border-2 border-brand-olive/20 hover:shadow-lg transition">
 					<h3 class="text-xl font-bold text-brand-olive mb-3">{achievement.title}</h3>
 					<p class="text-brand-dark leading-relaxed">{achievement.desc}</p>
 				</div>

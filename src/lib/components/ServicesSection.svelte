@@ -77,7 +77,7 @@
 
 <section id="services" class="py-24 px-4 bg-brand-cream">
 	<div class="max-w-7xl mx-auto">
-		<h2 class="text-5xl md:text-6xl font-black text-brand-olive mb-16">Our Services</h2>
+		<h2 class="text-5xl md:text-6xl font-bold text-brand-olive mb-16">Our Services</h2>
 
 		<!-- Desktop: Tabs -->
 		<div class="hidden md:block">

@@ -16,9 +16,9 @@
 	];
 </script>
 
-<section id="about" class="py-24 px-4 bg-white">
+<section id="about" class="py-32 px-4 bg-white">
 	<div class="max-w-7xl mx-auto">
-		<h2 class="text-5xl md:text-6xl font-black text-brand-olive mb-16">About Our Business</h2>
+		<h2 class="text-5xl md:text-6xl font-bold text-brand-olive mb-16">About Our Business</h2>
 
 		<div class="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
 			<!-- Left: Text -->
@@ -45,10 +45,10 @@
 				<div class="absolute -top-8 -right-8 w-80 h-80 opacity-20">
 					<DotGrid cols={8} rows={8} gap={10} />
 				</div>
-				<div class="relative z-10 space-y-4">
+				<div class="relative z-10 flex flex-wrap gap-3">
 					{#each industries as industry}
 						<div
-							class="bg-brand-sage-light text-brand-dark rounded-full px-6 py-3 font-semibold inline-block"
+							class="bg-brand-sage-light text-brand-dark rounded px-6 py-3 font-semibold"
 						>
 							{industry}
 						</div>

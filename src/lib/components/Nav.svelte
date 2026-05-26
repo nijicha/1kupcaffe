@@ -19,18 +19,18 @@
 	// }
 </script>
 
-<nav class="sticky top-0 z-50 bg-brand-cream/95 backdrop-blur-sm border-b border-brand-sage-light/30">
+<nav class="sticky top-0 z-50 bg-brand-dark/95 backdrop-blur-sm border-b border-white/10">
 	<div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
 		<div class="flex justify-between items-center h-16">
 			<!-- Logo -->
-			<a href="/#hero" class="text-2xl font-black text-brand-olive">1KUP</a>
+			<a href="/#hero" class="text-2xl font-black text-brand-cream">1KUP</a>
 
 			<!-- Desktop Nav -->
 			<div class="hidden md:flex gap-8">
 				{#each navItems as item}
 					<a
 						href={item.href}
-						class="text-sm font-semibold text-brand-dark hover:text-brand-olive transition-colors"
+						class="text-sm font-semibold text-brand-cream/70 hover:text-brand-cream transition-colors"
 					>
 						{item.label}
 					</a>
@@ -58,7 +58,7 @@
 				<!-- Mobile Menu Toggle -->
 				<button
 					onclick={() => (isOpen = !isOpen)}
-					class="md:hidden p-2 rounded text-brand-dark hover:bg-brand-sage-light/50 transition"
+					class="md:hidden p-2 rounded text-brand-cream hover:bg-white/10 transition"
 					aria-label="Toggle menu"
 				>
 					<svg class="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24">
@@ -80,7 +80,7 @@
 					<a
 						href={item.href}
 						onclick={() => (isOpen = false)}
-						class="px-4 py-2 text-sm font-semibold text-brand-dark hover:bg-brand-sage-light/30 rounded transition"
+						class="px-4 py-2 text-sm font-semibold text-brand-cream/80 hover:bg-white/10 rounded transition"
 					>
 						{item.label}
 					</a>
